@@ -14,9 +14,9 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Support" Type="Folder">
 			<Item Name="array_to_string.vi" Type="VI" URL="../../../lib/array_tools/array_to_string.vi"/>
-			<Item Name="build_data_arrays.vi" Type="VI" URL="../../../lib/array_tools/build_data_arrays.vi"/>
-			<Item Name="delta_time.vi" Type="VI" URL="../../../lib/timing_tools/delta_time.vi"/>
-			<Item Name="test_data--cluster.ctl" Type="VI" URL="../../../lib/array_tools/test_data--cluster.ctl"/>
+			<Item Name="build_data_arrays.vi" Type="VI" URL="../SubVIs/build_data_arrays.vi"/>
+			<Item Name="delta_time.vim" Type="VI" URL="../../../lib/timing_tools/delta_time.vim"/>
+			<Item Name="test_data--cluster.ctl" Type="VI" URL="../SubVIs/test_data--cluster.ctl"/>
 		</Item>
 		<Item Name="IPE Optimization Tester.lvlib" Type="Library" URL="../IPE Optimization Tester.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -42,7 +42,6 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 			</Item>
-			<Item Name="EncodingTester.lvlib" Type="Library" URL="../../Encoding Lab/EncodingTester.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EncoderLab" Type="EXE">
@@ -74,7 +73,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{70A0E2FA-61D7-4412-BEA7-F4002335EE87}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dependencies/EncodingTester.lvlib/Tester.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
